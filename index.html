@@ -3,14 +3,19 @@
     <head>
         <title>Random Hex Generator</title>
         <meta charset="utf-8">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="factoid"><span class="sentence">There are 16^6 (16777216) possible hexadecimal colors</span></div>
+        <div id="factoid"><span id="sentence" class="altShade">There are <strong>16<sup>6</sup></strong> (16,777,216) possible hexadecimal colors!</span></div>
         <div id="controls">
-            <h1 style="margin-top: 30%;">Random Hex Generator</h1>
-            <h2 id="currentColor">#FFFFFF</h2>
-            <button id="generator" onclick="generateNewColor()">New Color</button>
+            <h1 class="altShade">Random Hex Generator</h1>
+            <h2 id="currentColor" class="altShade">#FFFFFF</h2>
+            <button id="generator" onclick="generateNewColor()" class="altShade">New Color</button>
+        </div>
+        <div id="otherValues">
+            <h2 class="altShade">RGB: (<span id="rgbValue">0, 0, 0</span>)</h2>
+            <h2 class="altShade">HSL: (<span id="hslValue">0, 0%, 100%</span>)</h2>
         </div>
         <script src="main.js"></script>
     </body>
