@@ -1,4 +1,4 @@
-# Random Hexadecimal Color Generator
+# Random Hexadecimal Color Generator (<a href="https://jacobrussell-eng.github.io/Random-Hex-Generator/">:link:</a>)
 
  Playing with how many possible hexadecimal colors are available -> 16^6
 
